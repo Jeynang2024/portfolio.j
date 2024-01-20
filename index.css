@@ -1,0 +1,483 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+
+.cover{
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    background-image: url(tech-devices-icons-connected-digital-planet-earth_117023-449.avif);
+    background-size: 100% 700px ;
+    background-repeat: no-repeat;
+    
+    
+    
+}.coverup{
+    opacity: 0.7;
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(to right ,rgb(3, 3, 61),rgb(58, 3, 58));
+
+}
+    
+    
+.navbar{
+    height: 60px;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+}.box{
+    
+    height: 50px;
+    width: 70px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 9px;
+}.ho:hover{
+    border-bottom: 3px solid white;
+    opacity: 0.6;
+}.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    color: white;
+    margin-left:1080px;
+    margin-top: 20px;
+    background-image: radial-gradient(purple,rgb(138, 206, 215));
+    border-radius: 50%;
+}.ho1:hover{
+    border:3px solid white;
+    opacity: 0.7;
+}.box2{
+    height: 140pc;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(1, 1, 40),rgb(47, 2, 47));
+    display: flex;
+}.loading{
+    margin-top: 70px;
+    margin-left: 700px;
+    height: 170px;
+    width: 170px;
+    z-index: 2;
+    
+    
+    border: 3px solid orange;
+    border-radius: 50%;
+    animation: animate 4s linear infinite;
+}.spin{
+    height: 8px;
+    width: 8px;
+    background-color: cyan;
+    border: 3px solid cyan;
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+    animation: animate 4s linear infinite;
+}.load1{
+    margin: 10px 10px 10px 10px;
+    height: 130px;
+    width: 130px;
+    border: 3px solid purple;
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+
+}.spin2{
+    height: 8px;
+    width: 8px;
+    background-color: rgb(161, 72, 8);
+    border: 3px solid rgb(161, 72, 8);
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+    animation: animate 5s linear infinite;
+
+}.load2{
+    margin: 10px 10px 10px 10px;
+    height: 90px;
+    width: 90px;
+    border: 3px solid cyan;
+    border-radius: 50%;
+    animation: animate 5s linear infinite;
+
+
+}.spin3{
+    height: 8px;
+    width: 8px;
+    background-color: rgb(130, 8, 161);
+    border: 3px solid rgb(161, 8, 143);
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+    animation: animate 5s linear infinite;
+
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }0%{
+        transform: rotate(360deg);
+    }
+}@keyframes animate2{
+    0%{
+        transform: rotateY(0deg);
+    }0%{
+        transform: rotateY(360deg);
+    }
+}
+
+
+.portext{
+    color: white;
+    font-size: 10pc;
+    font-style: italic;
+    border-bottom: 3px solid rgb(72, 228, 239);
+    
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 200px;
+}.circlebox{
+    position: relative;
+    top: 750px ;
+    left: 100px;
+    height: 200px;
+    width: 300px;
+    
+
+    
+}
+
+
+.circle{
+    height: 170px;
+    width: 170px;
+    z-index: 2;
+    display: flex;
+    gap: 40px;
+    
+  
+    border-radius: 50%;
+    animation: animate 3s linear infinite;
+   
+
+
+}
+
+.spinner{
+    height: 18px;
+    width: 18px;
+    background-color: rgb(130, 8, 161);
+    border: 3px solid rgb(161, 8, 143);
+    border-radius: 50%;
+    position: absolute;
+    left: 46px;
+    
+
+}.spinner2{
+    height: 13px;
+    width: 13px;
+    background-color: rgb(130, 8, 161);
+    border: 3px solid rgb(161, 8, 143);
+    border-radius: 50%;
+    position: absolute;
+    left: 25px;
+    
+}.spinner3{
+    height: 8px;
+    width: 8px;
+    background-color: rgb(130, 8, 161);
+    border: 3px solid rgb(161, 8, 143);
+    border-radius: 50%;
+    position: absolute;
+    left: 6px;
+}
+
+
+
+
+.container{
+    position:relative;
+    top: 750px;
+    height: 80pc;
+    left: 170px;
+    width: 600px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}.contain{
+    height: 380px;
+    width: 100%;
+    
+    display: flex;
+     
+    gap: 50px;
+
+}.contain1{
+    height: 380px;
+    width: 100%;
+    
+    
+
+}.projects{
+    margin-top: 600px;
+    margin-left: 400px;
+}
+.boxcontain1{
+    width: 100%;
+    height: 360px;
+    border: 1px solid whitesmoke;
+    z-index: 2;
+    position: relative;
+    top: -360px;
+    
+transition: transform 1s linear 0s;}.boxcontain1:hover{
+    transform: translateX(-290px);
+}.under{
+    width: 100%;
+    height: 360px;
+    position: relative;
+    
+    
+  
+}.undertext{
+    width: 100%;
+    height: 360px;
+    position: relative;
+    background-color: aliceblue;
+    font-size: 20px;
+    color:black;
+    
+    
+    
+
+}.tt{
+    margin-left: 30px;
+}
+.boxcontain2{
+    width: 100%;
+    height: 360px;
+    z-index: 2;
+    position: relative;
+    top:-360px;
+    border: 1px solid whitesmoke;
+    transition: transform 1s linear 0s;
+}.boxcontain2:hover{
+    transform: translateX(290px);
+}
+.ho2:hover{
+    -moz-box-shadow:1px 1px 5px 5px cyan;
+    -webkit-box-shadow:1px 1px 5px 5px cyan;
+    box-shadow: 1px 1px 5px 5px cyan;
+
+}.bordofcon{
+    border: 1px white;
+    border-style: inset;
+
+
+}.title2{
+    margin-left: 300px;
+    font-size: 3pc;
+    z-index: 1;
+    font-style: italic;
+
+    
+    background-image: linear-gradient(to left ,rgb(119, 231, 224),white);
+    background-clip: text;
+    color: transparent;
+
+}
+
+.piccover{
+    height: 200px;
+    width: 100%;
+    background-image: url(Creative-Technology-girl-wearing-VR-Goggles.png);
+    background-size: cover;
+    border-bottom: 2px solid white;
+}.title3{
+    padding-top: 140px;
+    font-size: 2pc;
+    z-index: 1;
+    font-style: italic;
+
+    
+    background-image: linear-gradient(to left ,rgb(119, 231, 224),white);
+    background-clip: text;
+    color: transparent;
+
+}
+.content{
+    height: 180px;
+    width: 600px;
+    display: flex;
+    
+    color: whitesmoke;
+    font-size: 12px ;
+    
+}.first1{
+    width: 280px;
+    height: 180px;
+   
+    display: flex;
+    transition: transform 2s linear 0s;
+
+}.first1:hover{
+    transform: translateX(30px);
+}
+.first2{
+    width: 310px;
+    height: 180px;
+    
+}
+
+.firstglow1{
+    height: 100px;
+    width: 100px;
+     position: relative;
+     left: 30px;
+     top: 50px;
+    box-shadow: 1px 1px 4px 4px cyan;
+  
+}
+.firstglow2{
+    height: 100px;
+    position: relative;
+    top: 35px;
+    width: 100px;
+     z-index: 2;
+    box-shadow: 1px 1px 4px 4px cyan;
+   
+}
+.title1{
+    margin-left: 12px;
+    font-size: 2pc;
+    z-index: 1;
+    font-style: italic;
+    
+    
+    background-image: linear-gradient(to left ,orange,purple);
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 30px;
+}
+
+.cont{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(28, 3, 51);
+    display: flex;
+}.cont1{
+    height: 150px;
+    width: 50%;
+    border: 2ps solid white;
+    display: flex;
+    color: white;
+
+}.glowbox1{
+    height: 80px;
+    width: 80px;
+     position: relative;
+     left: 30px;
+     top: 50px;
+    box-shadow: 1px 1px 4px 4px cyan;
+}.glowbox2{
+    height: 80px;
+    position: relative;
+    top: 35px;
+    width: 80px;
+     z-index: 2;
+    box-shadow: 1px 1px 4px 4px cyan;
+}
+.show{
+    margin-top: 60px;
+    margin-left: 20px;
+    height: 30px;
+    width: 100px;
+    font-size: 23px;
+    font-style: italic;
+    
+    
+    background-image: linear-gradient(to left ,orange,purple);
+    background-clip: text;
+    color: transparent;
+
+}.robcont{
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
+
+.robolast{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 120px;
+
+    width: 120px;
+    border-radius: 50%;
+    background-image: url(cute-ai-robot-chatbot-waving-isolated-transparent-background_879541-322.avif);
+    background-size: 100px 100px;
+    transition: transform 2s linear 0s;
+   
+}
+.robolast:hover{
+    transform: translateX(200px);
+}.uni{
+    margin-top: 24px;
+    margin-left: 150px;
+    height: 120px;
+    width: 120px;
+    border: 2px solid orange;
+    animation: animate 6s linear infinite;
+    display: flex;
+}.uni1{
+    height: 90px;
+    width: 90px;
+    border: 2px solid purple;
+    animation: animate 6s linear infinite;
+    
+}.uni2{
+    height: 70px;
+    width: 70px;
+    border: 2px solid brown;
+    animation: animate 6s linear infinite;
+}.uni3{
+    height: 50px;
+    width: 50px;
+    border: 2px solid cyan;
+    animation: animate 6s linear infinite;
+}.uni4{
+    height: 30px;
+    width: 30px;
+    border: 2px solid purple;
+    animation: animate 6s linear infinite;
+}
+
+
+.foot{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(6, 2, 22);
+    color: white;
+    
+
+}.context{
+    font-size: 30px;
+    height: 200px;
+    width: 600px;
+    padding-inline-start: 500px;
+    
+    
+}
+
+
+
+
